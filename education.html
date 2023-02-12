@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+<div class="flex">
+<div class="w-3/5 bg-gray-100">
+<div class="flex items-center text-center px-6 py-3">
+<div class="w-1/12">
+<RouterLink to="/">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left mt-2" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+</svg>
+</RouterLink>
+</div>
+<div class="w-11/12 mt-4 flex justify-between border-b border-gray-700 mr-12 pb-2">
+<div>
+<span>განათლება</span>
+</div>
+<div>
+<span>3/3</span>
+</div>
+</div>
+</div>
+<div class="mt-4">
+<div class="flex items-center text-center px-6 py-3 ">
+<div class="w-1/12"></div>
+<div class="w-11/12 flex justify-between mr-12 pb-2">
+<div class="w-full">
+<p class="flex justify-start pb-2 ">სასწავლებელი</p>
+<input type="text" name="college" id="college-name" class="block w-full py-4 px-3 rounded-md border border-[#BCBCBC] shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="სასწავლებელი" aria-describedby="college-description"
+/>
+<p class="mt-2 text-sm text-gray-500 flex justify-start" id="position_hint"> მინიმუმ 2 სიმბოლო </p>
+</div>
+</div>
+</div>
+<div class="flex items-center text-center px-6 py-3">
+<div class="w-1/12"></div>
+<div class="w-11/12 mt-1 gap-4 flex justify-between mr-12 pb-2">
+<div class="w-1/2">
+<label for="firstname" class="flex justify-start text-sm font-medium text-gray-700"> ხარისხი </label>
+<div class="mt-1">
+<select class="block w-full py-4 px-3 rounded-md border border-[#BCBCBC] shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" >
+    <option class="">აირჩიეთ ხარისხი</option>
+</select> 
+</div>
+</div>
+<div class="w-1/2">
+<label for="end_date" class="flex justify-start text-sm font-medium text-gray-700"> დამთავრების რიცხვი </label>
+<div class="mt-1">
+<input type="date" id="date" class="block w-full py-4 border border-[#BCBCBC] px-3 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" />
+</div>
+</div>
+</div>
+</div>
+<div class="flex items-center text-center px-6 py-3">
+<div class="w-1/12"></div>
+<div class="w-11/12 mt-4 flex justify-between mr-12 pb-2">
+<div class="w-full">
+<label class="flex justify-start text-sm font-medium text-gray-700">აღწერა</label>
+<div class="mt-3">
+<textarea rows="5" name="description" id="job_description" placeholder="როლი თანამდებობაზე და ზოგადი აღწერა" class="block border border-[#BCBCBC] w-full px-4 py-2 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"></textarea>
+</div>
+</div>
+</div>
+</div>
+<div class="flex items-center text-center px-6 py-3">
+<div class="w-1/12"></div>
+<div class="w-11/12 mt-4 mr-12 pb-2 border-b border-blue-300">
+
+</div>
+</div>
+</div>
+
+
+<div class="flex items-center text-center px-6 py-3">
+<div class="w-1/12"></div>
+<div class="w-11/12 mt-4 mr-12 pb-2">
+<div class="w-full flex justify-start">
+<button class="bg-blue-400 rounded-md text-white px-6 py-2">მეტი გამოცდილების დამატება</button>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="flex items-center text-center px-6 py-3">
+<div class="w-1/12"></div>
+<div class="w-11/12 mt-4 flex justify-end mr-12 pb-2">
+<div class="">
+<button class="px-6 py-2 bg-[#0E80BF] text-white rounded-md">შემდეგი</button>
+</div>
+</div>
+</div>
+</div>
+<div class="w-2/5 bg-white h-100 h-screen">
+<div class="flex flex-col w-full h-screen">
+<div class="p-10 mt-auto w-full">
+<img src="/image/LOGO-12 1.png" alt="Logo">
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+
+</html>
